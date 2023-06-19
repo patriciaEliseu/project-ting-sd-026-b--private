@@ -1,7 +1,4 @@
-from ting_file_management.abstract_queue import AbstractQueue
-
-
-class Queue(AbstractQueue):
+class Queue:
     def __init__(self):
         self.queue = list()
 
